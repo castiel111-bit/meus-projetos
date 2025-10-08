@@ -70,3 +70,68 @@ body{
     transition: 0.09s;
 }
 /*FIM MAIN*/
+
+/* INICIO SOBRE */
+.SOBRE {
+    background-color: white;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.SOBRE div {
+    max-width: 50%;
+    padding-right: 40px;
+}
+.SOBRE img {
+    max-width: 450px;
+    border-radius: 8px;
+}
+.SOBRE div h2 {
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+/*FIM SOBRE*/
+
+/*INICIO PROJETOS*/
+.PROJETOS {
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+.lista-projetos {
+    width: 100%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PROJETOS img {
+    width: 22%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    border-radius: 8px;
+    opacity: 0.9;
+    transition: 0.7s;
+}
+.PROJETOS img:hover {
+    opacity: 1;
+}
+.PROJETOS h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.PROJETOS p {
+    margin-bottom: 40px;
+    font-style: italic;
+}
+/*INICIO PROJETOS*/
